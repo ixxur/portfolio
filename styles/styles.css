@@ -232,6 +232,7 @@ section {
   padding-bottom: 5rem;
 }
 .about-container .right-about {
+  padding-top: 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
@@ -276,6 +277,7 @@ section {
   background-color: var(--color-grey5);
 }
 .about-container .left-about {
+  padding-top: 1rem;
   padding-right: 5rem;
 }
 .about-container .left-about p {
@@ -331,16 +333,20 @@ section {
 .about-stats .progress-bars .progress-bar .progress-container .progress .html,
 .about-stats .progress-bars .progress-bar .progress-container .progress .css,
 .about-stats .progress-bars .progress-bar .progress-container .progress .javascript,
-.about-stats .progress-bars .progress-bar .progress-container .progress .react,
-.about-stats .progress-bars .progress-bar .progress-container .progress .sql {
+.about-stats .progress-bars .progress-bar .progress-container .progress .express {
   width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .sql {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .react,
+.about-stats .progress-bars .progress-bar .progress-container .progress .node {
+  width: 65%;
 }
 .about-stats .progress-bars .progress-bar .progress-container .progress .redux,
 .about-stats .progress-bars .progress-bar .progress-container .progress .kubernetes {
   width: 50%;
 }
-.about-stats .progress-bars .progress-bar .progress-container .progress .node,
-.about-stats .progress-bars .progress-bar .progress-container .progress .express,
 .about-stats .progress-bars .progress-bar .progress-container .progress .mazure {
   width: 60%;
 }
@@ -415,6 +421,7 @@ section {
 
 .portfolio-text {
   padding: 2rem 0;
+  margin-top: 3rem;
   text-align: center;
 }
 
@@ -733,7 +740,7 @@ section {
     background-color: var(--color-grey5);
   }
   .controls .control {
-    margin: 1rem 2rem;
+    margin: 1rem 1.5rem;
     flex-direction: row;
   }
 }

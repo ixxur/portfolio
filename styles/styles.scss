@@ -249,6 +249,7 @@ section {
 	padding-bottom: 5rem;
 
 	.right-about {
+		padding-top: 2rem;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 2rem;
@@ -300,6 +301,7 @@ section {
 	}
 
 	.left-about {
+		padding-top: 1rem;
 		padding-right: 5rem;
 
 		p {
@@ -361,18 +363,21 @@ section {
 					.html,
 					.css,
 					.javascript,
-					.react,
-					.sql {
+					.express {
 						width: 70%;
 					}
 
+					.sql {
+						width: 75%;
+					}
+					.react,
+					.node {
+						width: 65%;
+					}
 					.redux,
 					.kubernetes {
 						width: 50%;
 					}
-
-					.node,
-					.express,
 					.mazure {
 						width: 60%;
 					}
@@ -463,6 +468,7 @@ section {
 
 .portfolio-text {
 	padding: 2rem 0;
+	margin-top: 3rem;
 	text-align: center;
 }
 
