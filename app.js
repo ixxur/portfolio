@@ -44,10 +44,9 @@ function PageTransitions() {
 	});
 
 	//Submit form
-	// document.getElementById("submitBtn").onclick = function (event) {
-	// 	event.preventDefault(); // Prevent the default anchor behavior
-	// 	document.getElementById("submitForm").submit();
-	// };
+	document.getElementById("submitBtn").onclick = function () {
+		document.getElementById("submitForm").submit();
+	};
 }
 
 PageTransitions();
