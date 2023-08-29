@@ -39,6 +39,7 @@
 @media screen and (max-width: 970px) {
     .section {
         padding: 7rem 6rem;
+        
     }
     header {
 		padding: 0;
@@ -56,6 +57,7 @@
 	.header-content {
 		grid-template-columns: 1fr;
 		padding-bottom: 6rem;
+        
 	}
 
 	.left-header {
@@ -77,6 +79,7 @@
     .header-content .left-header .image {
         margin: 0 auto;
         width: 70%;
+        
     }
 
     .controls {
